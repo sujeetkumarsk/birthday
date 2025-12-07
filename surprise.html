@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Surprise for Chhota Don</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="logo">Pankaj ♥ Chhota Don</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="shayari.html">Shayari</a>
+      <a href="surprise.html">Surprise</a>
+    </div>
+  </nav>
+
+  <main class="surprise-main">
+    <div class="surprise-left">
+      <h1>Happy Birthday <span class="accent">Chhota Don</span> 🎂</h1>
+      <p class="lead">Make a wish and click the cake — confetti will celebrate with you!</p>
+
+      <div class="cake-box" id="cakeBox" title="Click to make a wish">
+        <div class="cake-top"></div>
+        <div class="candle"><div class="flame"></div></div>
+      </div>
+
+      <div class="controls">
+        <button class="btn" id="confettiBtn">Celebrate 🎉</button>
+        <button class="btn ghost" id="startSlideshow">Start Slideshow</button>
+      </div>
+    </div>
+
+    <div class="surprise-right">
+      <div class="slideshow" id="slideshow">
+        <img src="chhota.jpg" alt="photo1" class="slide show">
+        <img src="pankaj.jpg" alt="photo2" class="slide">
+      </div>
+    </div>
+  </main>
+
+  <canvas id="confettiCanvas" class="overlay-canvas"></canvas>
+
+  <footer class="footer">Wishing you endless smiles — from Pankaj ❤️</footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
